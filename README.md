@@ -124,6 +124,17 @@ TSNE
 
 ![avgw2v](https://user-images.githubusercontent.com/43536129/46907963-dbf22d80-cf38-11e8-9223-7a3f43f19bab.PNG)
 
+Train Accuracy : 89.94%
+
+Test Accuracy : 88.56%
+
+Confusion Matrix
+
+
+![cmatavgw2v](https://user-images.githubusercontent.com/43536129/46915736-3f2d9f80-cfcd-11e8-840b-6be43033d3b6.PNG)
+
+
+Thus, Word2Vec technique worked much better than the BOW and tfidf for the imbalanced dataset.
 
 #### tfidf weighted Word2Vec sample observations
 
@@ -135,3 +146,5 @@ TSNE
 Note: Due to imbalanced datasets the False Positive Rate is quite high. To counter this problem many options were tried - (under sampling, oversampling, weighted effects, etc.). As we had a heavy dataset of 500k points, undersampling proved viable.
 
 DISCUSSION: Task of building of vectorizers should be strictly done on the training data. The test data shouldn't be used for fitting the vectorizers and should be used at the time of testing only to avoid data leakage probelm.
+
+FULL RESULTS: Refer ipython notebooks
