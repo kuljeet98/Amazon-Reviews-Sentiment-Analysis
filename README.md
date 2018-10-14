@@ -1,7 +1,33 @@
 # Amazon-Reviews-Sentiment-Analysis
 
+## Some Basic Libraries
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import nltk
+%matplotlib inline
 
-Importing  <<<In Progress>>
+ ``` python
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import nltk
+%matplotlib inline
+
+
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import cross_val_score
+from sklearn.metrics import confusion_matrix
+from gensim.models import Word2Vec
+from sklearn.feature_extraction.text import TfidfVectorizer
+ ```
 
 ## Dataset
 
@@ -119,6 +145,7 @@ Confusion Matrix
 ![cmattfidf](https://user-images.githubusercontent.com/43536129/46908140-d34f2680-cf3b-11e8-9417-ca7efaaa7440.PNG)
 
 #### Average Word2Vec sample observations
+
 
 TSNE
 
