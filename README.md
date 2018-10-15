@@ -1,13 +1,6 @@
 # Amazon-Reviews-Sentiment-Analysis
 
 ## Some Basic Libraries
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
-import nltk
-%matplotlib inline
 
  ``` python
 import pandas as pd
